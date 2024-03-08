@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../components/Footer";
 import { Box, Heading, Input, Button, List, ListItem, ListIcon, VStack, HStack, IconButton, useToast } from "@chakra-ui/react";
 import { FaPlus, FaTrash } from "react-icons/fa";
 
@@ -52,6 +53,7 @@ const Index = () => {
           </ListItem>
         ))}
       </List>
+      <Footer />
     </VStack>
   );
 };
